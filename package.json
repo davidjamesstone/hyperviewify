@@ -1,0 +1,32 @@
+{
+  "name": "hyperviewify",
+  "version": "1.0.0",
+  "description": "Transform hyperviews template to hyperscript calls h()",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test/index.js -t [./index.js] -o test/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidjamesstone/hyperviewify.git"
+  },
+  "keywords": [
+    "hyperapp",
+    "hyperviews",
+    "browserify",
+    "transform"
+  ],
+  "author": "davidjamesstone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidjamesstone/hyperviewify/issues"
+  },
+  "homepage": "https://github.com/davidjamesstone/hyperviewify#readme",
+  "dependencies": {
+    "hyperviews": "^0.0.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^15.2.0"
+  }
+}
